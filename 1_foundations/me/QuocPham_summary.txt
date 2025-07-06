@@ -1,0 +1,2 @@
+I am a full-stack software engineer with broad experience in a variety of technologies from desktop development with WPF to web development with ReactJS and NextJS to databases like SQL Server, MongoDB and Postgres to various languages like C#, JavaScript, TypeScript and Python to game development with Unreal and Unity to AI agent development with MCP, OpenAI Agent SDK, CrewAI, Autogen, and LangGraph.
+I am a life long fan of fantasy-related media and games including table top RPGs, board games, and computer games and would like to create my own games someday.
