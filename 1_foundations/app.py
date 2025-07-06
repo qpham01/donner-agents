@@ -21,11 +21,11 @@ def push(text):
 
 
 def record_user_details(email, name="Name not provided", notes="not provided"):
-    push(f"Recording {name} with email {email} and notes {notes}")
+    push(f"Recording '{name}' with email '{email}' and notes '{notes}'")
     return {"recorded": "ok"}
 
 def record_unknown_question(question):
-    push(f"Recording {question}")
+    push(f"Recording '{question}'")
     return {"recorded": "ok"}
 
 record_user_details_json = {
@@ -77,14 +77,14 @@ class Me:
 
     def __init__(self):
         self.openai = OpenAI()
-        self.name = "Ed Donner"
-        reader = PdfReader("me/linkedin.pdf")
+        self.name = "Quoc Pham"
+        reader = PdfReader("me/BaoQuocPhamResume_20241206.pdf")
         self.linkedin = ""
         for page in reader.pages:
             text = page.extract_text()
             if text:
                 self.linkedin += text
-        with open("me/summary.txt", "r", encoding="utf-8") as f:
+        with open("me/QuocPham_summary.txt", "r", encoding="utf-8") as f:
             self.summary = f.read()
 
 
