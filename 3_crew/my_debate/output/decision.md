@@ -1,0 +1,11 @@
+After carefully evaluating the arguments presented for and against the motion that birthright citizenship should be granted to all children born in the United States, I find the arguments in favor of the motion to be more convincing. 
+
+The foundational legal principle rooted in the 14th Amendment highlights the constitutional basis for granting citizenship to all individuals born on U.S. soil. This protection is essential in promoting equality, ensuring that no individual is discriminated against based on their parent’s nationality or immigration status. By recognizing all children born in the U.S. as citizens, we uphold the values of justice and equality that are entrenched in American society.
+
+The promotion of social integration and national identity through birthright citizenship is another compelling argument. Children who grow up with a sense of belonging are more likely to become responsible, contributing members of society. Their participation in the economy, as future taxpayers and workers, further strengthens the nation financially and socially.
+
+Moreover, the advantages of public health and safety cannot be overlooked. By granting citizenship to all children born in the U.S., we create an environment where parents are willing to seek medical care and educational opportunities without the fear of deportation. This not only enhances the welfare of these children but also benefits the broader community.
+
+While opponents of the motion raise significant concerns, such as potential economic burdens or social cohesion risks, these issues can be managed through effective immigration and social policies rather than revoking birthright citizenship. Addressing root causes of immigration rather than limiting citizenship opportunities reflects more humane and just approaches.
+
+In summary, the arguments in favor of birthright citizenship present a more comprehensive vision for a united and equitable society. Upholding the principle of citizenship for all children born in the U.S. aligns with constitutional values, enriches the social fabric, promotes economic prosperity, and maintains our international stance on human rights. Therefore, I conclude that the motion to grant birthright citizenship to all children born in the United States is the more convincing position.
