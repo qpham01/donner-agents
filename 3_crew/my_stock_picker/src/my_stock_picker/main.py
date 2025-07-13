@@ -19,7 +19,7 @@ def run():
     """
     inputs = {
         'sector': 'technology',
-        'lookback_days': 14,
+        'lookback_days': 30,
         'run_date': '2025-07-13',
     }
     
