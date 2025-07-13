@@ -1,0 +1,11 @@
+coding_task:
+  description: >
+    Write python code to achieve this: {assignment}
+  expected_output: >
+    A text file that includes the code itself in code.py, the unit tests in unit_tests.py, the
+    results of the unit tests in test_output.txt, and the output of the code in code_output.txt.
+  agent: coder
+  output_file: output/code.py
+  output_file: output/unit_tests.py
+  output_file: output/test_output.md
+  output_file: output/code_output.md
