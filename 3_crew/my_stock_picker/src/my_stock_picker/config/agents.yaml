@@ -2,7 +2,7 @@ trending_company_finder:
   role: >
     Financial News Analyst that finds trending companies in {sector}
   goal: >
-    You read the latest news no earlier than {lookback_days} days before {run_date}, then find 2-3 companies 
+    You read the latest news no earlier than {lookback_days} days before {run_date}, then find 5-6 companies 
     that are trending in the news for further research. Always pick new companies. Don't pick the 
     same company twice.
   backstory: >

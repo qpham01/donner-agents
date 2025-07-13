@@ -80,12 +80,45 @@ class MyStockPicker():
             allow_delegation=True
         )
 
+        short_term_memory = ShortTermMemory(
+            storage=RAGStorage(
+                embedder_config={
+                    "provider": "openai",
+                    "config": {"model": "text-embedding-3-small"}
+                },
+                type="short_term",
+                path="./memory/"
+            )
+        )
+
+        long_term_memory = LongTermMemory(
+            storage=LTMSQLiteStorage(
+                db_path="./memory/long_term_memory_storage.db"
+            )
+        )
+
+        entity_memory = EntityMemory(
+            storage=RAGStorage(
+                embedder_config={
+                    "provider": "openai",
+                    "config": {"model": "text-embedding-3-small"}
+                },
+                type="short_term",
+                path="./memory/"
+            )
+        )
+
         return Crew(
             agents=self.agents,
             tasks=self.tasks, 
             process=Process.hierarchical,
             verbose=True,
-            manager_agent=manager)
+            manager_agent=manager,
+            memory=True,
+            short_term_memory=short_term_memory,
+            long_term_memory=long_term_memory,
+            entity_memory=entity_memory
+        )
 
         # return Crew(
         #     agents=self.agents,
