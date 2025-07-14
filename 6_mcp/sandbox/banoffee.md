@@ -1,27 +1,38 @@
 # Banoffee Pie Recipe
 
 ## Ingredients
-- 4 bananas, sliced
-- 394g caramel or dulce de leche
-- 300ml double cream
-- Dark chocolate (optional)
+- 1 can (14 oz) sweetened condensed milk (for making dulce de leche)
+- 1 1/2 cups digestive biscuits (crushed)
+- 1/4 cup unsalted butter (melted)
+- 3 ripe bananas
+- 1 1/2 cups heavy cream
+- 2 tablespoons powdered sugar
+- 1 teaspoon vanilla extract
+- Dark chocolate shavings or cocoa powder (for garnish)
 
-### For the pastry
-- 100g butter, chilled (plus extra for greasing)
-- 200g plain flour
-- 1 medium egg, separated
-- 1 tbsp golden caster sugar
+## Instructions
 
-## Method
-1. Make the pastry case: Put butter and flour in a food processor and pulse until it resembles fresh breadcrumbs. Add egg yolk and sugar, pulse again, then add very cold water a tbsp at a time until dough comes together.
-2. Knead dough gently by hand until smooth ball forms. Wrap in cling film and chill for 30 minutes.
-3. Heat oven to 190C/170C fan/gas 4. Grease a 23cm loose bottomed fluted tart tin. Roll out pastry and line the tin, leaving about 0.5cm of pastry over the edge and snip to length.
-4. Line base with baking parchment and weigh down with baking beans/uncooked rice. Bake for 15 minutes. Remove parchment and beans, brush pastry with beaten egg white and bake another 15-20 minutes until golden and cooked. Cool completely.
-5. Spread half the caramel on the pastry case, layer bananas on top, then cover with remaining caramel. Chill in fridge.
-6. Whip the cream until thick and spoon over the tart. Grate dark chocolate over to garnish if using.
+1. **Make the Dulce de Leche:**
+   - Remove the label from the can of sweetened condensed milk.
+   - Place the unopened can in a pot and cover it with water.
+   - Simmer gently for 2 to 3 hours, ensuring the can is always covered with water.
+   - Remove the can and let it cool completely before opening.
 
-## Notes
-- Serves 8-10.
-- Prep time: 30 minutes.
-- Cook time: 30-35 minutes.
-- An easy family favorite. Recommended to serve with a generous dollop of cream.
+2. **Prepare the Base:**
+   - Mix the crushed digestive biscuits with melted butter until well combined.
+   - Press the mixture firmly into the base of a 9-inch pie dish.
+   - Chill in the fridge for about 30 minutes to set.
+
+3. **Assemble the Pie:**
+   - Spread the cooled dulce de leche caramel over the biscuit base.
+   - Slice the bananas and layer them evenly over the caramel.
+
+4. **Whip the Cream:**
+   - Whip the heavy cream with powdered sugar and vanilla extract until soft peaks form.
+   - Spread the whipped cream over the bananas.
+
+5. **Garnish and Serve:**
+   - Garnish the pie with dark chocolate shavings or a dusting of cocoa powder.
+   - Chill the pie for another hour before serving to set everything.
+
+Enjoy your delicious homemade Banoffee Pie!

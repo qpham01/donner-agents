@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from market import is_paid_polygon, is_realtime_polygon
+from agents.mcp.server import MCPServerStdioParams
 
 load_dotenv(override=True)
 
@@ -32,7 +33,7 @@ trader_mcp_server_params = [
 
 def researcher_mcp_server_params(name: str):
     return [
-        {"command": "uvx", "args": ["mcp-server-fetch"]},
+        MCPServerStdioParams(command="uvx", args=["mcp-server-fetch"]),
         {
             "command": "npx",
             "args": ["-y", "@modelcontextprotocol/server-brave-search"],
