@@ -1,0 +1,22 @@
+{
+  "name": "donner-agents",
+  "version": "1.0.0",
+  "description": "### 6 week journey to code and deploy AI Agents with OpenAI Agents SDK, CrewAI, LangGraph, AutoGen and MCP",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qpham01/donner-agents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qpham01/donner-agents/issues"
+  },
+  "homepage": "https://github.com/qpham01/donner-agents#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.15"
+  }
+}
