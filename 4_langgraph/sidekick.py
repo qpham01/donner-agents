@@ -39,7 +39,7 @@ class Sidekick:
         self.tools = None
         self.llm_with_tools = None
         self.graph = None
-        self.sidekick_id = str(uuid.uuid4())
+        self.sidekick_id = "sidekick_thread"
         self.memory = MemorySaver()
         self.browser = None
         self.playwright = None
@@ -202,6 +202,7 @@ class Sidekick:
     
     async def cleanup(self):
         if (self.conn):
+            print("Close database connection")
             await self.conn.close()
         if self.browser:
             try:
