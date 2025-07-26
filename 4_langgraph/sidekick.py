@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 from langgraph.prebuilt import ToolNode
 from langchain_openai import ChatOpenAI
 from langgraph.checkpoint.memory import MemorySaver
+import aiosqlite
+from langgraph.checkpoint.sqlite.aio import AsyncSqliteSaver
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from typing import List, Any, Optional, Dict
 from pydantic import BaseModel, Field
@@ -37,7 +39,7 @@ class Sidekick:
         self.tools = None
         self.llm_with_tools = None
         self.graph = None
-        self.sidekick_id = str(uuid.uuid4())
+        self.sidekick_id = "sidekick_thread"
         self.memory = MemorySaver()
         self.browser = None
         self.playwright = None
@@ -49,6 +51,8 @@ class Sidekick:
         self.worker_llm_with_tools = worker_llm.bind_tools(self.tools)
         evaluator_llm = ChatOpenAI(model="gpt-4o-mini")
         self.evaluator_llm_with_output = evaluator_llm.with_structured_output(EvaluatorOutput)
+        self.conn = await aiosqlite.connect("checkpoints.sqlite")
+        self.saver = AsyncSqliteSaver(conn=self.conn)
         await self.build_graph()
 
     def worker(self, state: State) -> Dict[str, Any]:
@@ -177,7 +181,8 @@ class Sidekick:
         graph_builder.add_edge(START, "worker")
 
         # Compile the graph
-        self.graph = graph_builder.compile(checkpointer=self.memory)
+        # self.graph = graph_builder.compile(checkpointer=self.memory)
+        self.graph = graph_builder.compile(checkpointer=self.saver)
 
     async def run_superstep(self, message, success_criteria, history):
         config = {"configurable": {"thread_id": self.sidekick_id}}
@@ -195,7 +200,10 @@ class Sidekick:
         feedback = {"role": "assistant", "content": result["messages"][-1].content}
         return history + [user, reply, feedback]
     
-    def cleanup(self):
+    async def cleanup(self):
+        if (self.conn):
+            print("Close database connection")
+            await self.conn.close()
         if self.browser:
             try:
                 loop = asyncio.get_running_loop()
